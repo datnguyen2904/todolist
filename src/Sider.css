@@ -1,0 +1,101 @@
+.btn:hover {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #4b4f57;
+}
+
+ul li a {
+  padding: 12px 8px;
+  display: flex;
+  align-items: center;
+  color: #475569;
+}
+
+.active {
+  background-color: #f1f5f9;
+  border-radius: 4px;
+}
+
+.active a {
+  color: #0f172a;
+}
+
+ul li i {
+  font-size: 20px;
+}
+
+ul li p {
+  display: block;
+  margin-left: 8px;
+  /* margin-top: -10px; */
+}
+
+.modal_submit:hover {
+  box-shadow: 0 0 0 1px #fff, 0 0 0 3px #4b4f57;
+  color: #fff;
+}
+
+.ant-modal {
+  overflow: hidden !important;
+}
+.ant-modal-content {
+  padding: 0 !important;
+}
+
+label {
+  display: block;
+  color: #475569;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+textarea,
+input {
+  border: 1px solid #e2e8f0;
+  width: 100%;
+  margin-top: 8px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+textarea,
+input:focus {
+  border: 1px solid #3b3e42;
+}
+
+.content span {
+  border: 1px solid #e2e8f0;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.content span input {
+  margin: 0;
+  border: 0;
+}
+
+.content span:focus {
+  margin: 0;
+  border: 0;
+}
+
+span i {
+  padding-right: 10px;
+  color: #475569;
+}
+
+.ant-picker {
+  width: 100% !important;
+  height: 38px !important;
+}
+.ant-picker-suffix span,
+.ant-picker-suffix {
+  border: none !important;
+  height: 38px !important;
+}
